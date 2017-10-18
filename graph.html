@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>100ます計算</title>
+
+<link href="css/style2.css" rel="stylesheet" type="text/css">
+<link href="css/graph.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/jcanvas.min.js"></script>
+<script type="text/javascript" src="js/graph.js"></script>
+
+
+
+
+</head>
+
+<body>
+
+<header>
+</header>
+<main>
+
+
+
+<!----------------GRAPH.ここから-------------->
+
+<div id="mains_graph">
+    <ul class="headerUl">
+        <li>2017年6月2日(金)1年2組2番さん：百ます計算の記録</li>
+        <li>
+            <ul class="headerUlRight">
+                <li>
+                    <select name="select_ten_time" class="select_ten_time">
+                        <option value="ten_time">点数&タイム</option>
+                        <option value="ten">点数</option>
+                        <option value="time">タイム</option>
+                    </select>
+                </li>
+                <li>
+                    <select name="select_seito_num" class="select_seito_name">
+                        <!--<option value="saikou">めちゃいい！！</option>
+                        <option value="botiboti">まあまあいい！</option>
+                        <option value="hutuu">普通</option>
+                        <option value="saiaku">最悪・・</option>-->
+                    </select>
+                </li>
+                <li><input type="text" size="3" class="input_seito_num">　</li>
+                <li><input type="text" size="3" class="input_from">から<input type="text" size="3" class="input_to">まで</li>
+                <li><input type="button" class="ketteiBn" value="決定"></li>
+                <li><input type="button" class="nextBn" value="次へ"></li>
+            </ul>    
+        </li>
+    </ul>
+    <div class="clears"></div>
+    <!------------------------>
+    
+    <table class="dayTable">
+  <tbody>
+    <tr>
+      <td>日付</td>
+      <td>12月16日</td>
+      <td>12月17日</td>
+      <td>12月18日</td>
+      <td>12月19日</td>
+      <td>12月20日</td>
+      <td>12月21日</td>
+      <td>12月22日</td>
+      <td>12月23日</td>
+      <td>12月24日</td>
+      <td>12月25日</td>
+      <td>12月26日</td>
+      <td>12月27日</td>
+      <td>12月28日</td>
+      <td>12月29日</td>
+      <td>12月30日</td>
+    </tr>
+    <tr>
+      <td>点数（点）</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>時間（秒）</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+
+<!--------------Graph--------------->
+
+<div class="graphUl">
+    <div class="graphTit">百ます計算の記録</div>
+    <canvas id="graphCanvas"></canvas>
+    
+</div>
+
+<!--<div class="test">aaaa</div>-->
+
+</div>
+
+<!----------------GRAPH.ここまで-------------->
+
+</main>
+<footer>
+</footer>
+
+
+</body>
+</html>
