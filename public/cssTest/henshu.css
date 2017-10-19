@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.mainTableBg{
+	width:94vw;
+	height:calc(100% - 40px);
+	display:block;
+	overflow-y:scroll;
+	margin-top:10px;
+}
+.mainTable{
+	
+	width:92vw;
+	height:auto;
+	border:1px solid #D0D0D0;
+}
+.mainTable td,th{
+	border:1px solid #D0D0D0;
+	padding-left:1em;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	
+
+}
+.suu_koe_box{
+	
+	margin-top:-10px;
+	margin-bottom:10px;
+	
+	width:auto;
+	height:auto;
+	display:block;
+	background-color:#FFFFFF;
+	text-align:right;
+	
+	
+}
+.suu_koe_Table{
+	float:right;
+}
+.suu_koe_Table td{
+	border:1px solid #CDCDCD;
+	width:40px;
+	height:40px;
+	text-align:center;
+	
+	
+}
+.td_green{
+	background-color:#34890E;
+	color:#FFFFFF;
+	cursor:default;
+	
+}
+.c0{
+	cursor:default;
+}
+.carsors{
+	cursor:pointer;
+}
+.suu_koe_class1{
+	color:#FF0004;
+}
